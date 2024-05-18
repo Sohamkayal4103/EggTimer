@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  EggTimer
-//
-//  Created by Angela Yu on 08/07/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
-//
-
 import UIKit
 import AVFoundation
 
@@ -45,7 +37,6 @@ class ViewController: UIViewController {
         progressBar.setProgress(progressFraction, animated: true);
         if(seconds == 0){
             endTimer();
-            //print("Timer Complete");
             displayLabel.text = "Eggs done!";
             playSound();
             return;
